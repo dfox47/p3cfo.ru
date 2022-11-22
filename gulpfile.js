@@ -18,32 +18,32 @@ const port          = config.port
 const user          = config.user
 
 const remoteFolder          = '/www/p3cfo.ru'
-const remoteFolder2017      = remoteFolder + '/2017'
-const remoteFolder2018      = remoteFolder + '/2018'
-const remoteFolder2019      = remoteFolder + '/2019'
-const remoteFolder2020      = remoteFolder + '/2020'
-const remoteFolderCss       = remoteFolder + '/css'
-const remoteFolderJs        = remoteFolder + '/js'
+const remote2017            = remoteFolder + '/2017'
+const remote2018            = remoteFolder + '/2018'
+const remote2019            = remoteFolder + '/2019'
+const remote2020            = remoteFolder + '/2020'
+const remoteCss             = remoteFolder + '/css'
+const remoteJs              = remoteFolder + '/js'
 const remoteTemplateParts   = remoteFolder + '/template-parts'
 
-const localFolder2017         = '2017'
-const localFolder2018         = '2018'
-const localFolder2019         = '2019'
-const localFolder2020         = '2020'
-const localFolderCss          = 'css'
-const localFolderJs           = 'js'
+const local2017         = '2017'
+const local2018         = '2018'
+const local2019         = '2019'
+const local2020         = '2020'
+const localCss          = 'css'
+const localJs           = 'js'
 const localTemplateParts      = 'template-parts'
 
 
 
 function getFtpConnection() {
 	return ftp.create({
-		host:       host,
-		log:        gutil.log,
-		password:   password,
-		parallel:   3,
-		port:       port,
-		user:       user
+		host:           host,
+		log:            gutil.log,
+		password:       password,
+		parallel:       3,
+		port:           port,
+		user:           user
 	})
 }
 
@@ -52,27 +52,23 @@ const conn = getFtpConnection()
 
 
 gulp.task('2017', function () {
-	return gulp.src(localFolder2017 + '/**/*')
-		.pipe(conn.dest(remoteFolder2017))
+	return gulp.src(local2017 + '/**/*').pipe(conn.dest(remote2017))
 })
 
 gulp.task('2018', function () {
-	return gulp.src(localFolder2018 + '/**/*')
-		.pipe(conn.dest(remoteFolder2018))
+	return gulp.src(local2018 + '/**/*').pipe(conn.dest(remote2018))
 })
 
 gulp.task('2019', function () {
-	return gulp.src(localFolder2019 + '/**/*')
-		.pipe(conn.dest(remoteFolder2019))
+	return gulp.src(local2019 + '/**/*').pipe(conn.dest(remote2019))
 })
 
 gulp.task('2020', function () {
-	return gulp.src(localFolder2020 + '/**/*')
-		.pipe(conn.dest(remoteFolder2020))
+	return gulp.src(local2020 + '/**/*').pipe(conn.dest(remote2020))
 })
 
 gulp.task('css', function () {
-	return gulp.src(localFolderCss + '/styles.scss')
+	return gulp.src(localCss + '/styles.scss')
 		.pipe(sass())
 		.pipe(cssMinify())
 		.pipe(rename({
@@ -82,39 +78,34 @@ gulp.task('css', function () {
 })
 
 gulp.task('copy_css', function () {
-	return gulp.src(localFolderCss + '/**/*')
-		.pipe(conn.dest(remoteFolderCss))
+	return gulp.src(localCss + '/**/*').pipe(conn.dest(remoteCss))
 })
 
 gulp.task('copy_js', function () {
-	return gulp.src(localFolderJs + '/**/*')
-		.pipe(conn.dest(remoteFolderJs))
+	return gulp.src(localJs + '/**/*').pipe(conn.dest(remoteJs))
 })
 
 gulp.task('html', function () {
-	return gulp.src('/*.html')
-		.pipe(conn.dest(remoteFolder))
+	return gulp.src('/*.html').pipe(conn.dest(remoteFolder))
 })
 
 gulp.task('php', function () {
-	return gulp.src('/*.php')
-		.pipe(conn.dest(remoteFolder))
+	return gulp.src('/*.php').pipe(conn.dest(remoteFolder))
 })
 
 gulp.task('php_template_parts', function () {
-	return gulp.src(localTemplateParts + '/**/*')
-		.pipe(conn.dest(remoteTemplateParts))
+	return gulp.src(localTemplateParts + '/**/*').pipe(conn.dest(remoteTemplateParts))
 })
 
 gulp.task('watch', function() {
-	gulp.watch(localFolder2017 + '/**/*',           gulp.series('2017'))
-	gulp.watch(localFolder2018 + '/**/*',           gulp.series('2018'))
-	gulp.watch(localFolder2019 + '/**/*',           gulp.series('2019'))
-	gulp.watch(localFolder2020 + '/**/*',           gulp.series('2020'))
-	gulp.watch(localFolderCss + '/**/*',            gulp.series('css', 'copy_css'))
+	gulp.watch(local2017 + '/**/*',           gulp.series('2017'))
+	gulp.watch(local2018 + '/**/*',           gulp.series('2018'))
+	gulp.watch(local2019 + '/**/*',           gulp.series('2019'))
+	gulp.watch(local2020 + '/**/*',           gulp.series('2020'))
+	gulp.watch(localCss + '/**/*',            gulp.series('css', 'copy_css'))
 	gulp.watch('*.html',                            gulp.series('html'))
 	gulp.watch('*.php',                             gulp.series('php'))
-	gulp.watch(localFolderJs + '/**/*',             gulp.series('copy_js'))
+	gulp.watch(localJs + '/**/*',             gulp.series('copy_js'))
 	gulp.watch(localTemplateParts + '/**/*',        gulp.series('php_template_parts'))
 })
 
