@@ -28,7 +28,7 @@
 	<link rel="stylesheet" href="/css/font-awesome/css/font-awesome.min.css">
 	<link rel="stylesheet" href="/js/slick/slick.css">
 	<link rel="stylesheet" href="/js/slick/slick-theme.css">
-<!--	<link rel="stylesheet" href="/css/main.css" />-->
+<!--	<link rel="stylesheet" href="/css/main.css">-->
 
 	<link rel="stylesheet" href="/css/owl.carousel.min.css">
 	<link rel="stylesheet" href="/css/owl.theme.default.min.css">
