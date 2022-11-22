@@ -12,22 +12,22 @@
 		      onsubmit="AjaxFormRequest()"
 		>
 			<div>
-				<input id="fio" type="text" name="input_name[0]" size="39" value="ФИО" required />
-				<input type="hidden" name="check[]" value="1" />
+				<input id="fio" type="text" name="input_name[0]" size="39" value="ФИО" required>
+				<input type="hidden" name="check[]" value="1">
 			</div>
 
 			<div>
-				<input id="org" type="text" name="input_name[1]" size="39" value="Компания" required />
-				<input type="hidden" name="check[]" value="1" />
+				<input id="org" type="text" name="input_name[1]" size="39" value="Компания" required>
+				<input type="hidden" name="check[]" value="1">
 			</div>
 
 			<div>
-				<input id="email" type="email" name="input_name[2]" size="39" value="E-mail" required />
-				<input type="hidden" name="check[]" value="1" />
+				<input id="email" type="email" name="input_name[2]" size="39" value="E-mail" required>
+				<input type="hidden" name="check[]" value="1">
 			</div>
 
 			<div>
-				<input type="submit" value="ПОДПИСАТЬСЯ" name="submit" />
+				<input type="submit" value="ПОДПИСАТЬСЯ" name="submit">
 			</div>
 
 			<label class="form_subscribe__label">

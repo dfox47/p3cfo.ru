@@ -1375,17 +1375,17 @@
 			<div class="sbscrbFormWrap form_subscribe">
 				<form action="javascript:void(0);" method="post" id="sbscrbForm" onsubmit="AjaxFormRequest()">
 					<div>
-						<input id="fio" type="text" name="input_name[0]" size="39" value="ФИО" required />
+						<input id="fio" type="text" name="input_name[0]" size="39" value="ФИО" required>
 						<input type="hidden" name="check[]" value="1" />
 					</div>
 
 					<div>
-						<input id="org" type="text" name="input_name[1]" size="39" value="Компания" required />
+						<input id="org" type="text" name="input_name[1]" size="39" value="Компания" required>
 						<input type="hidden" name="check[]" value="1" />
 					</div>
 
 					<div>
-						<input id="email" type="email" name="input_name[2]" size="39" value="E-mail" required />
+						<input id="email" type="email" name="input_name[2]" size="39" value="E-mail" required>
 						<input type="hidden" name="check[]" value="1" />
 					</div>
 
