@@ -26,13 +26,13 @@ const remoteCss             = remoteFolder + '/css'
 const remoteJs              = remoteFolder + '/js'
 const remoteTemplateParts   = remoteFolder + '/template-parts'
 
-const local2017         = '2017'
-const local2018         = '2018'
-const local2019         = '2019'
-const local2020         = '2020'
-const localCss          = 'css'
-const localJs           = 'js'
-const localTemplateParts      = 'template-parts'
+const local2017             = '2017'
+const local2018             = '2018'
+const local2019             = '2019'
+const local2020             = '2020'
+const localCss              = 'css'
+const localJs               = 'js'
+const localTemplateParts    = 'template-parts'
 
 
 
@@ -98,15 +98,15 @@ gulp.task('php_template_parts', function () {
 })
 
 gulp.task('watch', function() {
-	gulp.watch(local2017 + '/**/*',           gulp.series('2017'))
-	gulp.watch(local2018 + '/**/*',           gulp.series('2018'))
-	gulp.watch(local2019 + '/**/*',           gulp.series('2019'))
-	gulp.watch(local2020 + '/**/*',           gulp.series('2020'))
-	gulp.watch(localCss + '/**/*',            gulp.series('css', 'copy_css'))
-	gulp.watch('*.html',                            gulp.series('html'))
-	gulp.watch('*.php',                             gulp.series('php'))
-	gulp.watch(localJs + '/**/*',             gulp.series('copy_js'))
-	gulp.watch(localTemplateParts + '/**/*',        gulp.series('php_template_parts'))
+	gulp.watch('*.html',                        gulp.series('html'))
+	gulp.watch('*.php',                         gulp.series('php'))
+	gulp.watch(local2017 + '/**/*',             gulp.series('2017'))
+	gulp.watch(local2018 + '/**/*',             gulp.series('2018'))
+	gulp.watch(local2019 + '/**/*',             gulp.series('2019'))
+	gulp.watch(local2020 + '/**/*',             gulp.series('2020'))
+	gulp.watch(localCss + '/**/*',              gulp.series('css', 'copy_css'))
+	gulp.watch(localJs + '/**/*',               gulp.series('copy_js'))
+	gulp.watch(localTemplateParts + '/**/*',    gulp.series('php_template_parts'))
 })
 
 gulp.task('default', gulp.series('watch'))
