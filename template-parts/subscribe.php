@@ -31,7 +31,7 @@
 			</div>
 
 			<label class="form_subscribe__label">
-				<input class="form_subscribe__privacy" type="checkbox" name="form_subscribe__privacy" checked />
+				<input class="form_subscribe__privacy" type="checkbox" name="form_subscribe__privacy" checked>
 				<span class="form_subscribe__checkbox"></span>
 				<span>Даю своё согласие с <a href="/privacy_policy.html" target="_blank">Политикой конфиденциальности</a></span>
 			</label>
