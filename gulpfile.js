@@ -12,19 +12,19 @@ const sass          = require('gulp-sass')(require('sass'))
 const uglify        = require('gulp-uglify')
 
 // FTP config
-const host            = config.host
-const password        = config.password
-const port            = config.port
-const user            = config.user
+const host          = config.host
+const password      = config.password
+const port          = config.port
+const user          = config.user
 
-const remoteFolder            = '/www/p3cfo.ru'
-const remoteFolder2017        = remoteFolder + '/2017'
-const remoteFolder2018        = remoteFolder + '/2018'
-const remoteFolder2019        = remoteFolder + '/2019'
-const remoteFolder2020        = remoteFolder + '/2020'
-const remoteFolderCss         = remoteFolder + '/css'
-const remoteFolderJs          = remoteFolder + '/js'
-const remoteTemplateParts     = remoteFolder + '/template-parts'
+const remoteFolder          = '/www/p3cfo.ru'
+const remoteFolder2017      = remoteFolder + '/2017'
+const remoteFolder2018      = remoteFolder + '/2018'
+const remoteFolder2019      = remoteFolder + '/2019'
+const remoteFolder2020      = remoteFolder + '/2020'
+const remoteFolderCss       = remoteFolder + '/css'
+const remoteFolderJs        = remoteFolder + '/js'
+const remoteTemplateParts   = remoteFolder + '/template-parts'
 
 const localFolder2017         = '2017'
 const localFolder2018         = '2018'
@@ -38,12 +38,12 @@ const localTemplateParts      = 'template-parts'
 
 function getFtpConnection() {
 	return ftp.create({
-		host:           host,
-		log:            gutil.log,
-		password:       password,
-		parallel:       3,
-		port:           port,
-		user:           user
+		host:       host,
+		log:        gutil.log,
+		password:   password,
+		parallel:   3,
+		port:       port,
+		user:       user
 	})
 }
 
