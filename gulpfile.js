@@ -90,7 +90,7 @@ gulp.task('html', function () {
 })
 
 gulp.task('php', function () {
-	return gulp.src('/*.php').pipe(conn.dest(remoteFolder))
+	return gulp.src('*.php').pipe(conn.dest(remoteFolder))
 })
 
 gulp.task('php_template_parts', function () {

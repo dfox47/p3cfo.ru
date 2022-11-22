@@ -80,9 +80,9 @@
 	<div class="headerWrap">
 		<div class="logoWrap">
 			<a class="logo scrollup" href="javascript:void(0);">
-				IV Форум<br />
-				Центрального<br />
-				Федерального<br />
+				IV Форум<br>
+				Центрального<br>
+				Федерального<br>
 				Округа по ГЧП
 			</a>
 		</div>
@@ -130,7 +130,7 @@
 
 
 <div class="home_slider">
-	<img class="home_slider__bg" src="/images/2019_bg.jpg" alt="" />
+	<img class="home_slider__bg" src="/images/2019_bg.jpg" alt="">
 
 	<div class="home_slider__wrap">
 		<div class="home_slider__wrap_2">
@@ -139,7 +139,7 @@
 					<p class="home_slider__place">Дом Правительства Московской области</p>
 
 					<p class="home_slider__address">
-						Московская область,<br />
+						Московская область,<br>
 						г. Красногорск-7, бульвар Строителей, д.1
 					</p>
 
@@ -161,8 +161,8 @@
 			<p class="partners__title">Организаторы:</p>
 
 			<div class="partners__list">
-				<a class="partner__mosreg" href="//mosreg.ru" target="_blank"><img src="/images/header_logo2_01.jpg" alt=""/></a>
-				<a class="partner__pppcenter" href="//www.pppcenter.ru/" target="_blank"><img src="/images/partners/pppcenter.svg" alt="pppcenter.ru" /></a>
+				<a class="partner__mosreg" href="//mosreg.ru" target="_blank"><img src="/images/header_logo2_01.jpg" alt=""></a>
+				<a class="partner__pppcenter" href="//www.pppcenter.ru/" target="_blank"><img src="/images/partners/pppcenter.svg" alt="pppcenter.ru"></a>
 			</div>
 		</li>
 	</ul>
@@ -182,7 +182,7 @@
 		<div class="mainDiv3_1">
 			<div class="mainDiv3left claerfix">
 				<div class="mainDiv3ImageWrap">
-					<img src="/images/about_1.png" alt=""/>
+					<img src="/images/about_1.png" alt="">
 				</div>
 
 				<div class="mainDiv3TextWrap">
@@ -196,12 +196,12 @@
 
 		<div class="mainDiv3_2">
 			<div class="mainDiv3left claerfix">
-				<div class="mainDiv3ImageWrap"><img src="/images/about_2.png" alt=""/></div>
+				<div class="mainDiv3ImageWrap"><img src="/images/about_2.png" alt=""></div>
 
 				<div class="mainDiv3TextWrap">
 					<div class="mainDiv3Header2"><a href="//yandex.ru/maps/10735/krasnogorsk/?ll=37.381264%2C55.816241&z=15&from=1org_map&mode=poi&poi%5Bpoint%5D=37.381239%2C55.816230&poi%5Buri%5D=ymapsbm1%3A%2F%2Forg%3Foid%3D1108915440" target="_blank">МЕСТО ПРОВЕДЕНИЯ</a></div>
 					<div class="mainDiv3Text">
-						<p>Дом<br />Правительства<br />Московской области</p>
+						<p>Дом<br>Правительства<br>Московской области</p>
 					</div>
 				</div>
 			</div>
@@ -211,7 +211,7 @@
 
 		<div class="mainDiv3_3">
 			<div class="mainDiv3left claerfix">
-				<div class="mainDiv3ImageWrap"><img src="/images/about_3.png" alt=""/></div>
+				<div class="mainDiv3ImageWrap"><img src="/images/about_3.png" alt=""></div>
 
 				<div class="mainDiv3TextWrap">
 					<div class="mainDiv3Header2">АУДИТОРИЯ</div>
@@ -722,14 +722,14 @@
 	<div class="programm4Wrap mainDiv5">
 		<!-- Воробьев -->
 		<div class="prog">
-			<img src="/images/speakers/vorobev.jpg" alt="" />
+			<img src="/images/speakers/vorobev.jpg" alt="">
 			<h3>Воробьев Андрей Юрьевич</h3>
 			<p>Губернатор Московской области</p>
 		</div>
 
 		<!-- Хромов -->
 		<div class="prog">
-			<img src="/images/speakers/hromov.jpg" alt="" />
+			<img src="/images/speakers/hromov.jpg" alt="">
 			<h3>Хромов Вадим Валерианович</h3>
 			<p>Заместитель Председателя Правительства Московской области</p>
 		</div>
@@ -737,7 +737,7 @@
 
 		<!-- Буцаев -->
 		<div class="prog">
-			<img src="/images/speakers/bucaev.jpg" alt="" />
+			<img src="/images/speakers/bucaev.jpg" alt="">
 			<h3>Буцаев Денис Петрович</h3>
 			<p>Генеральный директор ППК РЭО</p>
 		</div>
@@ -746,77 +746,77 @@
 
 		<!-- Иванов -->
 		<div class="prog">
-			<img src="/images/speakers/ivanov.jpg" alt="" />
+			<img src="/images/speakers/ivanov.jpg" alt="">
 			<h3>Иванов Илья Борисович</h3>
 			<p>Управляющий партнер Медицинской инвестиционной группы</p>
 		</div>
 
 		<!-- Кострома -->
 		<div class="prog">
-			<img src="/images/speakers/kostroma.jpg" alt="" />
+			<img src="/images/speakers/kostroma.jpg" alt="">
 			<h3>Кострома Леонид Валерьевич</h3>
 			<p>Директор ГАУИ города Москвы</p>
 		</div>
 
 		<!-- Лазарев -->
 		<div class="prog">
-			<img src="/images/speakers/lazarev.jpg" alt="" />
+			<img src="/images/speakers/lazarev.jpg" alt="">
 			<h3>Лазарев Алексей Александрович</h3>
 			<p>Директор Дирекции по транспорту, инфра-структуре и ГЧП ЕАБР</p>
 		</div>
 
 		<!-- Маврин -->
 		<div class="prog">
-			<img src="/images/speakers/mavrin.jpg" alt="" />
+			<img src="/images/speakers/mavrin.jpg" alt="">
 			<h3>Маврин Алексей Анатольевич</h3>
 			<p>Председатель совета директоров ООО «СГЦ „Опека“»</p>
 		</div>
 
 		<!-- Ожгихин -->
 		<div class="prog">
-			<img src="/images/speakers/ojgihin.jpg" alt="" />
+			<img src="/images/speakers/ojgihin.jpg" alt="">
 			<h3>Ожгихин Иван Владимирович</h3>
 			<p>Заместитель генерального директора «Швабе»</p>
 		</div>
 
 		<!-- Потехин -->
 		<div class="prog">
-			<img src="/images/speakers/potehin.jpg" alt="" />
+			<img src="/images/speakers/potehin.jpg" alt="">
 			<h3>Потехин Иван Александрович</h3>
 			<p>Заместитель начальника департамента, Газпромбанк</p>
 		</div>
 
 		<!-- Селезнев -->
 		<div class="prog">
-			<img src="/images/speakers/seleznev.jpg" alt="" />
+			<img src="/images/speakers/seleznev.jpg" alt="">
 			<h3>Селезнев Павел Леонидович</h3>
 			<p>Председатель Правления Национ-ального Центра ГЧП</p>
 		</div>
 
 		<!-- Снегуров -->
 		<div class="prog">
-			<img src="/images/speakers/snegurov.jpg" alt="" />
+			<img src="/images/speakers/snegurov.jpg" alt="">
 			<h3>Снегуров Игорь Адольфович</h3>
 			<p>Председатель совета директоров группы «ВИС»</p>
 		</div>
 
 		<!-- Сухотина -->
 		<div class="prog">
-			<img src="/images/speakers/suhotina.jpg" alt="" />
+			<img src="/images/speakers/suhotina.jpg" alt="">
 			<h3>Сухотина Ксения Анатольевна</h3>
 			<p>Генеральный директор ООО «Русатом Инфра-структурные решения»</p>
 		</div>
 
 		<!-- Твардовский -->
 		<div class="prog">
-			<img src="/images/speakers/tvardovskiy.jpg" alt="" />
+			<img src="/images/speakers/tvardovskiy.jpg" alt="">
 			<h3>Твардовский Дмитрий Вячеславович</h3>
 			<p>Первый заместитель генерального директора АО «ИнфраВЭБ»</p>
 		</div>
 
 		<!-- Ткаченко -->
 		<div class="prog">
-			<img src="/images/speakers/tkachenko.jpg" alt="" />
+			<img src="/images/speakers/tkachenko.jpg" alt="">
 			<h3>Ткаченко Максим Викторович</h3>
 			<p>Исполнительный директор Национ-ального Центра ГЧП</p>
 		</div>
@@ -825,28 +825,28 @@
 
 		<!-- Чачин -->
 		<div class="prog">
-			<img src="/images/speakers/chachin.jpg" alt="" />
+			<img src="/images/speakers/chachin.jpg" alt="">
 			<h3>Чачин Михаил Львович</h3>
 			<p>Вице-президент ПАО Сбербанк</p>
 		</div>
 
 		<!-- Чичерин -->
 		<div class="prog">
-			<img src="/images/speakers/chicherin.jpg" alt="" />
+			<img src="/images/speakers/chicherin.jpg" alt="">
 			<h3>Чичерин Георгий Валерьевич</h3>
 			<p>Член правления ГК «Российские автомобильные дороги»</p>
 		</div>
 
 		<!-- Чупшева -->
 		<div class="prog">
-			<img src="/images/speakers/chupsheva.jpg" alt="" />
+			<img src="/images/speakers/chupsheva.jpg" alt="">
 			<h3>Чупшева Светлана Витальевна</h3>
 			<p>Генеральный директор Агентства стратегических инициатив</p>
 		</div>
 
 		<!-- Шаповалов -->
 		<div class="prog">
-			<img src="/images/speakers/shapovalov.jpg" alt="" />
+			<img src="/images/speakers/shapovalov.jpg" alt="">
 			<h3>Шаповалов Алексей Владимирович</h3>
 			<p>Вице-президент АО «Управляющая компания «Просвещение»</p>
 		</div>
@@ -873,7 +873,7 @@
 		<div class="photoMini">
 			<a class="fbslider" data-fancybox-type="iframe" href="images/photo_2018/s1.html">
 				<div class="photoMiniImg">
-					<img src="/images/photo_2018/01.jpg" width="347" height="231" alt=""/>
+					<img src="/images/photo_2018/01.jpg" width="347" height="231" alt="">
 					<p>Пленарное заседание<br>«Развитие ГЧП в Центральной России: эффективные механизмы и существующие барьеры»</p>
 				</div>
 			</a>
@@ -884,7 +884,7 @@
 		<div class="photoMini">
 			<a class="fbslider" data-fancybox-type="iframe" href="images/photo_2018/s2.html">
 				<div class="photoMiniImg">
-					<img src="/images/photo_2018/02.jpg" width="347" height="231" alt=""/>
+					<img src="/images/photo_2018/02.jpg" width="347" height="231" alt="">
 					<p>Панельная дискуссия<br>«Новые источники финансирования для подготовки и реализации проектов ГЧП в регионах»</p>
 				</div>
 			</a>
@@ -896,7 +896,7 @@
 		<div class="photoMini photoMini4">
 			<a class="fbslider" data-fancybox-type="iframe" href="images/photo_2018/s3.html">
 				<div class="photoMiniImg">
-					<img src="/images/photo_2018/03.jpg" width="347" height="231" alt=""/>
+					<img src="/images/photo_2018/03.jpg" width="347" height="231" alt="">
 					<p>Экспертная сессия<br>«Транспортная инфраструктура Центральной России: планы и проекты»</p>
 				</div>
 			</a>
@@ -908,7 +908,7 @@
 		<div class="photoMini noPB">
 			<a class="fbslider" data-fancybox-type="iframe" href="images/photo_2018/s4.html">
 				<div class="photoMiniImg">
-					<img src="/images/photo_2018/04.jpg" width="347" height="231" alt=""/>
+					<img src="/images/photo_2018/04.jpg" width="347" height="231" alt="">
 					<p>Стратегическая сессия<br>«ГЧП в социальной сфере: лучшие практики и типовые решения для тиражирования на территории ЦФО»</p>
 				</div>
 			</a>
@@ -920,7 +920,7 @@
 		<div class="photoMini noPB">
 			<a class="fbslider" data-fancybox-type="iframe" href="images/photo_2018/s5.html">
 				<div class="photoMiniImg">
-					<img src="/images/photo_2018/05.jpg" width="347" height="231" alt=""/>
+					<img src="/images/photo_2018/05.jpg" width="347" height="231" alt="">
 					<p>Подписание соглашений и пресс-подход<br></p>
 				</div>
 			</a>
@@ -932,7 +932,7 @@
 		<div class="photoMini noPB photoMini4">
 			<a class="fbslider" data-fancybox-type="iframe" href="images/photo_2018/s6.html">
 				<div class="photoMiniImg">
-					<img src="/images/photo_2018/06.jpg" width="347" height="231" alt=""/>
+					<img src="/images/photo_2018/06.jpg" width="347" height="231" alt="">
 					<p>Холл и общение<br></p>
 				</div>
 			</a>
@@ -1187,7 +1187,7 @@
 
 				<li>
 					<a href="//www.pppi.ru/news/sberbank-predostavil-bankovskie-garantii-vozvrata-avansa-dlya-stroitelstva-ckad-3" target="_blank">
-						<img src="/images/ckad3.jpg" alt="" />
+						<img src="/images/ckad3.jpg" alt="">
 						<span class="news_list__date">11 декабря 2018</span>
 						<span class="news_list__desc">Сбербанк предоставил банковские гарантии возврата аванса для строительства ЦКАД-3</span>
 					</a>
@@ -1196,7 +1196,7 @@
 				<li>
 					<div class="newsImage">
 						<a href="http://www.pppi.ru/news/v-bryanske-otkryli-gemodializnyy-centr-sozdannyy-v-ramkah-gchp" target="_blank">
-							<img class="js-img_scroll" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-img-src="/images/10021.jpg" width="245" height="178" alt=""/>
+							<img class="js-img_scroll" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-img-src="/images/10021.jpg" width="245" height="178" alt="">
 						</a>
 					</div>
 
@@ -1208,147 +1208,147 @@
 				<li>
 					<div class="newsImage">
 						<a href="http://www.pppi.ru/news/italyanskaya-kompaniya-anas-mozhet-voyti-v-proekt-stroitelstva-ckad-4-v-podmoskove" target="_blank">
-							<img class="js-img_scroll" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-img-src="/images/10020.jpg" width="245" height="178" alt=""/></a></div>
+							<img class="js-img_scroll" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-img-src="/images/10020.jpg" width="245" height="178" alt=""></a></div>
 					<div class="top">19 ноября 2018</div>
 					<div class="cont"><a href="http://www.pppi.ru/news/italyanskaya-kompaniya-anas-mozhet-voyti-v-proekt-stroitelstva-ckad-4-v-podmoskove" target="_blank">Итальянская компания ANAS может войти в проект строительства ЦКАД-4 в Подмосковье</a><br>&nbsp;</div>
 				</li>
 
 				<li>
-					<div class="newsImage"><a href="//www.pppi.ru/news/tureckaya-kompaniya-mozhet-vystupit-partnerom-stroitelstva-pervoy-ocheredi-lrt-v-podmoskove" target="_blank"><img class="js-img_scroll" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-img-src="/images/11003.jpg" width="245" height="178" alt=""/></a></div>
+					<div class="newsImage"><a href="//www.pppi.ru/news/tureckaya-kompaniya-mozhet-vystupit-partnerom-stroitelstva-pervoy-ocheredi-lrt-v-podmoskove" target="_blank"><img class="js-img_scroll" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-img-src="/images/11003.jpg" width="245" height="178" alt=""></a></div>
 					<div class="top">13 ноября 2018</div>
 					<div class="cont"><a href="//www.pppi.ru/news/tureckaya-kompaniya-mozhet-vystupit-partnerom-stroitelstva-pervoy-ocheredi-lrt-v-podmoskove" target="_blank">Турецкая компания может выступить партнером строительства первой очереди ЛРТ в Подмосковье</a><br>&nbsp;</div>
 				</li>
 
 				<li>
 					<div class="newsImage">
-						<a href="//www.pppi.ru/news/moskva-zaklyuchila-vtoroy-ofsetnyy-kontrakt-na-postavku-lekarstv" target="_blank"><img class="js-img_scroll" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-img-src="/images/11001.jpg" width="245" height="178" alt=""/></a>
+						<a href="//www.pppi.ru/news/moskva-zaklyuchila-vtoroy-ofsetnyy-kontrakt-na-postavku-lekarstv" target="_blank"><img class="js-img_scroll" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-img-src="/images/11001.jpg" width="245" height="178" alt=""></a>
 					</div>
 					<div class="top">12 ноября 2018</div>
 					<div class="cont"><a href="//www.pppi.ru/news/moskva-zaklyuchila-vtoroy-ofsetnyy-kontrakt-na-postavku-lekarstv" target="_blank">Москва заключила второй офсетный контракт на поставку лекарств</a><br>&nbsp;</div>
 				</li>
 
 				<li>
-					<div class="newsImage"><a href="//www.pppi.ru/news/sovet-deputatov-serpuhova-mosoblasti-odobril-koncessiyu-po-modernizacii-obektov-municipalnogo" target="_blank"><img class="js-img_scroll" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-img-src="/images/11000.jpg" width="245" height="178" alt=""/></a></div>
+					<div class="newsImage"><a href="//www.pppi.ru/news/sovet-deputatov-serpuhova-mosoblasti-odobril-koncessiyu-po-modernizacii-obektov-municipalnogo" target="_blank"><img class="js-img_scroll" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-img-src="/images/11000.jpg" width="245" height="178" alt=""></a></div>
 					<div class="top">18 октября 2018</div>
 					<div class="cont"><a href="//www.pppi.ru/news/sovet-deputatov-serpuhova-mosoblasti-odobril-koncessiyu-po-modernizacii-obektov-municipalnogo" target="_blank">Совет депутатов Серпухова Мособласти одобрил концессию по модернизации объектов муниципального теплоснабжения</a><br>&nbsp;</div>
 				</li>
 
 				<li>
-					<div class="newsImage"><a href="//www.pppi.ru/news/investor-vlozhit-50-mln-rubley-v-ulichnoe-osveshchenie-goroda-rasskazovo-tambovskoy-oblasti" target="_blank"><img class="js-img_scroll" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-img-src="/images/11002.jpg" width="245" height="178" alt=""/></a></div>
+					<div class="newsImage"><a href="//www.pppi.ru/news/investor-vlozhit-50-mln-rubley-v-ulichnoe-osveshchenie-goroda-rasskazovo-tambovskoy-oblasti" target="_blank"><img class="js-img_scroll" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-img-src="/images/11002.jpg" width="245" height="178" alt=""></a></div>
 					<div class="top">4 октября 2018</div>
 					<div class="cont"><a href="//www.pppi.ru/news/investor-vlozhit-50-mln-rubley-v-ulichnoe-osveshchenie-goroda-rasskazovo-tambovskoy-oblasti" target="_blank">Инвестор вложит 50 млн рублей в уличное освещение города Рассказово Тамбовской области</a><br>&nbsp;</div>
 				</li>
 
 				<li>
-					<div class="newsImage"><a href="//www.pppi.ru/news/tulskaya-oblast-gotova-otdat-v-koncessiyu-shest-usadeb" target="_blank"><img class="js-img_scroll" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-img-src="/images/11004.jpg" width="245" height="178" alt=""/></a></div>
+					<div class="newsImage"><a href="//www.pppi.ru/news/tulskaya-oblast-gotova-otdat-v-koncessiyu-shest-usadeb" target="_blank"><img class="js-img_scroll" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-img-src="/images/11004.jpg" width="245" height="178" alt=""></a></div>
 					<div class="top">14 августа 2018</div>
 					<div class="cont"><a href="//www.pppi.ru/news/tulskaya-oblast-gotova-otdat-v-koncessiyu-shest-usadeb" target="_blank">Тульская область готова отдать в концессию шесть усадеб</a><br>&nbsp;</div>
 				</li>
 
 				<li>
-					<div class="newsImage"><a href="//www.pppi.ru/news/v-podmoskove-rassmatrivayutsya-proekty-s-obemom-investiciy-70-mlrd-rubley" target="_blank"><img class="js-img_scroll" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-img-src="/images/b187695.jpg" width="245" height="178" alt=""/></a></div>
+					<div class="newsImage"><a href="//www.pppi.ru/news/v-podmoskove-rassmatrivayutsya-proekty-s-obemom-investiciy-70-mlrd-rubley" target="_blank"><img class="js-img_scroll" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-img-src="/images/b187695.jpg" width="245" height="178" alt=""></a></div>
 					<div class="top">20 апреля 2017</div>
 					<div class="cont"><a href="//www.pppi.ru/news/v-podmoskove-rassmatrivayutsya-proekty-s-obemom-investiciy-70-mlrd-rubley" target="_blank">В Подмосковье рассматриваются проекты с объемом инвестиций 70 млрд рублей</a><br>&nbsp;</div>
 				</li>
 
 				<li>
-					<div class="newsImage"><a href="//www.pppi.ru/news/centr-razvitiya-gchp-zapustil-strategicheskie-sessii-po-otboru-gchp-iniciativ-v-federalnyh" target="_blank"><img class="js-img_scroll" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-img-src="/images/b187422.jpg" width="245" height="178" alt=""/></a></div>
+					<div class="newsImage"><a href="//www.pppi.ru/news/centr-razvitiya-gchp-zapustil-strategicheskie-sessii-po-otboru-gchp-iniciativ-v-federalnyh" target="_blank"><img class="js-img_scroll" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-img-src="/images/b187422.jpg" width="245" height="178" alt=""></a></div>
 					<div class="top">19 апреля 2017</div>
 					<div class="cont"><a href="//www.pppi.ru/news/centr-razvitiya-gchp-zapustil-strategicheskie-sessii-po-otboru-gchp-iniciativ-v-federalnyh" target="_blank">Центр развития ГЧП запустил стратегические сессии по отбору ГЧП-инициатив в федеральных округах</a></div>
 				</li>
 
 				<li>
-					<div class="newsImage"><a href="//www.pppi.ru/news/cfo-lidiruet-po-urovnyu-razvitiya-gchp" target="_blank"><img class="js-img_scroll" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-img-src="/images/b187573.jpg" width="245" height="178" alt=""/></a></div>
+					<div class="newsImage"><a href="//www.pppi.ru/news/cfo-lidiruet-po-urovnyu-razvitiya-gchp" target="_blank"><img class="js-img_scroll" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-img-src="/images/b187573.jpg" width="245" height="178" alt=""></a></div>
 					<div class="top">19 апреля 2017</div>
 					<div class="cont"><a href="//www.pppi.ru/news/cfo-lidiruet-po-urovnyu-razvitiya-gchp" target="_blank">ЦФО лидирует по уровню развития ГЧП</a><br>&nbsp;<br>&nbsp;</div>
 				</li>
 
 				<li>
-					<div class="newsImage"><a href="//tass.ru/ekonomika/4195134" target="_blank"><img class="js-img_scroll" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-img-src="/images/pic-1.jpg" width="245" height="178" alt=""/></a></div>
+					<div class="newsImage"><a href="//tass.ru/ekonomika/4195134" target="_blank"><img class="js-img_scroll" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-img-src="/images/pic-1.jpg" width="245" height="178" alt=""></a></div>
 					<div class="top">19 апреля 2017</div>
 					<div class="cont"><a href="//tass.ru/ekonomika/4195134" target="_blank">Инвестиции от ГЧП в Подмосковье в этом году составят около 20 млрд рублей</a></div>
 				</li>
 
 				<li>
-					<div class="newsImage"><a href="//www.gazeta.ru/social/news/2017/04/19/n_9944747.shtml" target="_blank"><img class="js-img_scroll" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-img-src="/images/pic-2.jpg" width="245" height="178" alt=""/></a></div>
+					<div class="newsImage"><a href="//www.gazeta.ru/social/news/2017/04/19/n_9944747.shtml" target="_blank"><img class="js-img_scroll" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-img-src="/images/pic-2.jpg" width="245" height="178" alt=""></a></div>
 					<div class="top">19 апреля 2017</div>
 					<div class="cont"><a href="//www.gazeta.ru/social/news/2017/04/19/n_9944747.shtml" target="_blank">В Подмосковье отчитались об успехах в реализации проектов ГЧП</a></div>
 				</li>
 
 				<li>
-					<div class="newsImage"><a href="//www.interfax-russia.ru/Center/citynews.asp?id=825624&sec=1669" target="_blank"><img class="js-img_scroll" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-img-src="/images/pic-3.jpg" width="245" height="178" alt=""/></a></div>
+					<div class="newsImage"><a href="//www.interfax-russia.ru/Center/citynews.asp?id=825624&sec=1669" target="_blank"><img class="js-img_scroll" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-img-src="/images/pic-3.jpg" width="245" height="178" alt=""></a></div>
 					<div class="top">19 апреля 2017</div>
 					<div class="cont"><a href="//www.interfax-russia.ru/Center/citynews.asp?id=825624&sec=1669" target="_blank">Зампред Буцаев назвал отрасли, где активнее всего реализуются проекты ГЧП в Подмосковье</a></div>
 				</li>
 
 				<li>
-					<div class="newsImage"><a href="//www.interfax-russia.ru/Center/citynews.asp?id=825519&sec=1669" target="_blank"><img class="js-img_scroll" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-img-src="/images/pic-4.jpg" width="245" height="178" alt=""/></a></div>
+					<div class="newsImage"><a href="//www.interfax-russia.ru/Center/citynews.asp?id=825519&sec=1669" target="_blank"><img class="js-img_scroll" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-img-src="/images/pic-4.jpg" width="245" height="178" alt=""></a></div>
 					<div class="top">19 апреля 2017</div>
 					<div class="cont"><a href="//www.interfax-russia.ru/Center/citynews.asp?id=825519&sec=1669" target="_blank">Подмосковье названо лидером среди регионов ЦФО по подготовке проектов ГЧП</a></div>
 				</li>
 
 				<li>
-					<div class="newsImage"><a href="//www.interfax-russia.ru/Center/citynews.asp?id=825483&sec=1669" target="_blank"><img class="js-img_scroll" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-img-src="/images/img_825483_203959369.jpg" width="245" height="178" alt=""/></a></div>
+					<div class="newsImage"><a href="//www.interfax-russia.ru/Center/citynews.asp?id=825483&sec=1669" target="_blank"><img class="js-img_scroll" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-img-src="/images/img_825483_203959369.jpg" width="245" height="178" alt=""></a></div>
 					<div class="top">19 апреля 2017</div>
 					<div class="cont"><a href="//www.interfax-russia.ru/Center/citynews.asp?id=825483&sec=1669" target="_blank">Форум ЦФО по государственно-частному партнерству открылся в Красногорске</a></div>
 				</li>
 
 				<li>
-					<div class="newsImage"><a href="//www.pppi.ru/event/v-moskovskoy-oblasti-proydet-ii-forum-cfo-po-gchp" target="_blank"><img class="js-img_scroll" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-img-src="/images/Layer12-2.jpg" width="245" height="178" alt=""/></a></div>
+					<div class="newsImage"><a href="//www.pppi.ru/event/v-moskovskoy-oblasti-proydet-ii-forum-cfo-po-gchp" target="_blank"><img class="js-img_scroll" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-img-src="/images/Layer12-2.jpg" width="245" height="178" alt=""></a></div>
 					<div class="top">13 апреля 2017</div>
 					<div class="cont"><a href="//www.pppi.ru/event/v-moskovskoy-oblasti-proydet-ii-forum-cfo-po-gchp" target="_blank">В Московской области пройдет II Форум ЦФО по ГЧП</a><br>&nbsp;</div>
 				</li>
 
 				<li>
-					<div class="newsImage"><a href="//www.pppi.ru/news/luchshie-proektnye-iniciativy-prezentuyut-na-forume-cfo-po-gchp" target="_blank"><img class="js-img_scroll" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-img-src="/images/rsz_img_11042017_165940_0.jpg" width="245" height="178" alt=""/></a></div>
+					<div class="newsImage"><a href="//www.pppi.ru/news/luchshie-proektnye-iniciativy-prezentuyut-na-forume-cfo-po-gchp" target="_blank"><img class="js-img_scroll" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-img-src="/images/rsz_img_11042017_165940_0.jpg" width="245" height="178" alt=""></a></div>
 					<div class="top">11 апреля 2017</div>
 					<div class="cont"><a href="//www.pppi.ru/news/luchshie-proektnye-iniciativy-prezentuyut-na-forume-cfo-po-gchp" target="_blank">Лучшие проектные инициативы презентуют на Форуме ЦФО по ГЧП</a></div>
 				</li>
 
 				<li>
-					<div class="newsImage"><a href="//www.pppi.ru/news/minstroy-predlozhil-privlekat-sredstva-npf-v-koncessii-v-zhkh-malyh-gorodov" target="_blank"><img class="js-img_scroll" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-img-src="/images/Layer12.jpg" width="245" height="178" alt=""/></a></div>
+					<div class="newsImage"><a href="//www.pppi.ru/news/minstroy-predlozhil-privlekat-sredstva-npf-v-koncessii-v-zhkh-malyh-gorodov" target="_blank"><img class="js-img_scroll" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-img-src="/images/Layer12.jpg" width="245" height="178" alt=""></a></div>
 					<div class="top">7 апреля 2017</div>
 					<div class="cont"><a href="//www.pppi.ru/news/minstroy-predlozhil-privlekat-sredstva-npf-v-koncessii-v-zhkh-malyh-gorodov" target="_blank">Минстрой предложил привлекать средства НПФ в концессии в ЖКХ малых городов</a></div>
 				</li>
 
 				<li>
-					<div class="newsImage"><a href="//www.pppi.ru/news/v-gosdume-predlagayut-peredavat-obekty-kulturnogo-naslediya-po-koncessii" target="_blank"><img class="js-img_scroll" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-img-src="/images/Layer14.jpg" width="245" height="178" alt=""/></a></div>
+					<div class="newsImage"><a href="//www.pppi.ru/news/v-gosdume-predlagayut-peredavat-obekty-kulturnogo-naslediya-po-koncessii" target="_blank"><img class="js-img_scroll" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-img-src="/images/Layer14.jpg" width="245" height="178" alt=""></a></div>
 					<div class="top">7 апреля 2017</div>
 					<div class="cont"><a href="//www.pppi.ru/news/v-gosdume-predlagayut-peredavat-obekty-kulturnogo-naslediya-po-koncessii" target="_blank">В Госдуме предлагают передавать объекты культурного наследия по концессии</a></div>
 				</li>
 
 				<li>
-					<div class="newsImage"><a href="//www.pppi.ru/news/rosavtodor-rassmotrit-sofinansirovanie-treh-dorozhnyh-gchp-proektov" target="_blank"><img class="js-img_scroll" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-img-src="/images/Layer13.jpg" width="245" height="178" alt=""/></a></div>
+					<div class="newsImage"><a href="//www.pppi.ru/news/rosavtodor-rassmotrit-sofinansirovanie-treh-dorozhnyh-gchp-proektov" target="_blank"><img class="js-img_scroll" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-img-src="/images/Layer13.jpg" width="245" height="178" alt=""></a></div>
 					<div class="top">6 апреля 2017</div>
 					<div class="cont"><a href="//www.pppi.ru/news/rosavtodor-rassmotrit-sofinansirovanie-treh-dorozhnyh-gchp-proektov" target="_blank">Росавтодор рассмотрит софинансирование трех дорожных ГЧП-проектов</a></div>
 				</li>
 
 				<li>
-					<div class="newsImage"><a href="//tass.ru/transport/3511254" target="_blank"><img class="js-img_scroll" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-img-src="/images/Layer15.jpg" width="245" height="178" alt=""/></a></div>
+					<div class="newsImage"><a href="//tass.ru/transport/3511254" target="_blank"><img class="js-img_scroll" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-img-src="/images/Layer15.jpg" width="245" height="178" alt=""></a></div>
 					<div class="top">5 августа 2016</div>
 					<div class="cont"><a href="//tass.ru/transport/3511254" target="_blank">ЕАБР: проекты ГЧП будут наиболее перспективными для финансирования</a></div>
 				</li>
 
 				<li>
-					<div class="newsImage"><a href="//lenta.ru/news/2017/04/04/gchp/" target="_blank"><img class="js-img_scroll" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-img-src="/images/Layer11.jpg" width="245" height="178" alt=""/></a></div>
+					<div class="newsImage"><a href="//lenta.ru/news/2017/04/04/gchp/" target="_blank"><img class="js-img_scroll" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-img-src="/images/Layer11.jpg" width="245" height="178" alt=""></a></div>
 					<div class="top">4 апреля 2017</div>
 					<div class="cont"><a href="//lenta.ru/news/2017/04/04/gchp/" target="_blank">В России создадут Национальный центр государственно-частного партнерства</a></div>
 				</li>
 
 				<li>
-					<div class="newsImage"><a href="//ria.ru/mo/20170330/1491159156.html" target="_blank"><img class="js-img_scroll" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-img-src="/images/Layer9.jpg" width="245" height="178" alt=""/></a></div>
+					<div class="newsImage"><a href="//ria.ru/mo/20170330/1491159156.html" target="_blank"><img class="js-img_scroll" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-img-src="/images/Layer9.jpg" width="245" height="178" alt=""></a></div>
 					<div class="top">30 марта 2017</div>
 					<div class="cont"><a href="//ria.ru/mo/20170330/1491159156.html" target="_blank">Московская область расположилась на втором месте по уровню развития ГЧП</a></div>
 				</li>
 
 				<li>
-					<div class="newsImage"><a href="//ria.ru/economy/20170329/1491027954.html" target="_blank"><img class="js-img_scroll" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-img-src="/images/Layer10.jpg" width="245" height="178" alt=""/></a></div>
+					<div class="newsImage"><a href="//ria.ru/economy/20170329/1491027954.html" target="_blank"><img class="js-img_scroll" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-img-src="/images/Layer10.jpg" width="245" height="178" alt=""></a></div>
 					<div class="top">29 марта 2017</div>
 					<div class="cont"><a href="//ria.ru/economy/20170329/1491027954.html" target="_blank">Подмосковье создаст центр сопровождения проектов ГЧП</a><br>&nbsp;</div>
 				</li>
 
 				<li>
-					<div class="newsImage"><a href="//tass.ru/ekonomika/4131181" target="_blank"><img class="js-img_scroll" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-img-src="/images/news_fish.jpg" width="245" height="178" alt=""/></a></div>
+					<div class="newsImage"><a href="//tass.ru/ekonomika/4131181" target="_blank"><img class="js-img_scroll" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-img-src="/images/news_fish.jpg" width="245" height="178" alt=""></a></div>
 					<div class="top">28 марта 2017</div>
 					<div class="cont"><a href="//tass.ru/ekonomika/4131181" target="_blank">В Московской области реализуются 64 проекта ГЧП на сумму свыше 180 млрд рублей</a></div>
 				</li>
@@ -1508,7 +1508,7 @@
 
 
 <!-- Yandex.Metrika counter -->
-<script> (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter44148144 = new Ya.Metrika({ id:44148144, clickmap:true, trackLinks:true, accurateTrackBounce:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); </script> <noscript><div><img src="https://mc.yandex.ru/watch/44148144" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
+<script> (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter44148144 = new Ya.Metrika({ id:44148144, clickmap:true, trackLinks:true, accurateTrackBounce:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); </script> <noscript><div><img src="https://mc.yandex.ru/watch/44148144" style="position:absolute; left:-9999px;" alt=""></div></noscript> <!-- /Yandex.Metrika counter -->
 
 <script>
 	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

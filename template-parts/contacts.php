@@ -25,7 +25,7 @@
 			</div>
 		</div>
 
-		<img class="contacts_bg_mobile" src="/images/bg_mapc.jpg" alt="" />
+		<img class="contacts_bg_mobile" src="/images/bg_mapc.jpg" alt="">
 	</div>
 </div>
 

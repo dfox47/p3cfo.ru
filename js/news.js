@@ -40,7 +40,7 @@ $(window).bind('load', function() {
 					const $date         = $data.find('.meta__time-changer').parent().html();
 
 					$this.parent().append('<div class="news_list__item"><a href="' + ext_url + '" target="_blank">' +
-						'<img src="' + host_full + $img + '" alt="" />' +
+						'<img src="' + host_full + $img + '" alt="">' +
 						'<span class="news_list__date">' + $date + '</span>' +
 						'<span class="news_list__desc">' + $h1 + '</span>' +
 						'</a></div>');

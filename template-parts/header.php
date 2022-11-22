@@ -4,44 +4,41 @@
 
 
 <head>
-	<meta charset="utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<meta content="width=device-width, user-scalable=yes, maximum-scale=5" name="viewport" />
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta content="width=device-width, user-scalable=yes, maximum-scale=5" name="viewport">
 
-	<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
-	<link rel="icon" type="image/png" href="/favicon/favicon-32x32.png" sizes="32x32" />
-	<link rel="icon" type="image/png" href="/favicon/favicon-16x16.png" sizes="16x16" />
-	<link rel="manifest" href="/favicon/manifest.json" />
-	<link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5" />
-	<link rel="shortcut icon" href="/favicon/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" href="/favicon/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="/favicon/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="/favicon/manifest.json">
+	<link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5">
+	<link rel="shortcut icon" href="/favicon/favicon.ico">
 
-	<meta name="msapplication-config" content="/favicon/browserconfig.xml" />
-	<meta name="theme-color" content="#ffffff" />
+	<meta name="msapplication-config" content="/favicon/browserconfig.xml">
+	<meta name="theme-color" content="#ffffff">
 
 	<title>VI ФОРУМ ЦЕНТРАЛЬНОГО ФЕДЕРАЛЬНОГО ОКРУГА ПО ГЧП</title>
 
 
 
 	<!--all styles in one file with GULP-->
-	<link rel="stylesheet" href="/styles.min.css?v<?php echo(date("YmdHis")); ?>" />
+	<link rel="stylesheet" href="/styles.min.css?v<?php echo(date("YmdHis")); ?>">
 
-	<link rel="stylesheet" href="/css/font-awesome/css/font-awesome.min.css" />
-	<link rel="stylesheet" href="/js/slick/slick.css" />
-	<link rel="stylesheet" href="/js/slick/slick-theme.css" />
+	<link rel="stylesheet" href="/css/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="/js/slick/slick.css">
+	<link rel="stylesheet" href="/js/slick/slick-theme.css">
 <!--	<link rel="stylesheet" href="/css/main.css" />-->
 
-	<link rel="stylesheet" href="/css/owl.carousel.min.css" />
-	<link rel="stylesheet" href="/css/owl.theme.default.min.css" />
+	<link rel="stylesheet" href="/css/owl.carousel.min.css">
+	<link rel="stylesheet" href="/css/owl.theme.default.min.css">
 
-
-
-	<link rel="stylesheet" href="/include/fancyBox/jquery.fancybox.css" media="screen" />
-	<link rel="stylesheet" href="/include/jquery.countdown.package-2.0.1/jquery.countdown.css" />
+	<link rel="stylesheet" href="/include/fancyBox/jquery.fancybox.css" media="screen">
+	<link rel="stylesheet" href="/include/jquery.countdown.package-2.0.1/jquery.countdown.css">
 
 	<script src="//api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
 	<script src="/js/jquery.3.2.1.js"></script>
 	<script src="/js/owl.carousel.min.js"></script>
-
 
 	<script src="/include/jquery.scrollTo.min.js?201809251441"></script>
 
@@ -92,9 +89,9 @@
 				VI
 			<?php } ?>
 
-			Форум<br />
-			Центрального<br />
-			Федерального<br />
+			Форум<br>
+			Центрального<br>
+			Федерального<br>
 			Округа по ГЧП
 		</a>
 

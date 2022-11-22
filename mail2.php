@@ -153,18 +153,18 @@ function complete_mail() {
               if(substr(htmlspecialchars(trim($_POST['check'][$i])), 0, 1) == 1) {
                  if(empty($_POST['input_name'][$i]) || $_POST['input_name'][$i] == 'ФИО' || $_POST['input_name'][$i] == 'Организация' || $_POST['input_name'][$i] == 'e-mail' || $_POST['input_name'][$i] == 'Должность' || $_POST['input_name'][$i] == 'Сайт компании') {
                          $sendemail = 'No';
-                         echo '<br /><b>Необходимо заполнить поле '.$empty_input[$i].'!</b>';
+                         echo '<br><b>Необходимо заполнить поле '.$empty_input[$i].'!</b>';
 
                  }
               }
         }
         if($sendemail == 'No') show_form();
         $mess = '';
-$mess .= '<b>ФИО: </b>'.$_POST['input_name'][0].'<br />';
-$mess .= '<b>Организация: </b>'.$_POST['input_name'][1].'<br />';
-$mess .= '<b>Должность: </b>'.$_POST['input_name'][2].'<br />';
-$mess .= '<b>e-mail: </b>'.$_POST['input_name'][3].'<br />';
-$mess .= '<b>Сайт компании: </b>'.$_POST['input_name'][4].'<br />';
+$mess .= '<b>ФИО: </b>'.$_POST['input_name'][0].'<br>';
+$mess .= '<b>Организация: </b>'.$_POST['input_name'][1].'<br>';
+$mess .= '<b>Должность: </b>'.$_POST['input_name'][2].'<br>';
+$mess .= '<b>e-mail: </b>'.$_POST['input_name'][3].'<br>';
+$mess .= '<b>Сайт компании: </b>'.$_POST['input_name'][4].'<br>';
 // подключаем файл класса для отправки почты
 // если Вы забыли его скачать - http://www.php-mail.ru/class.phpmailer.zip
         require 'class.phpmailer.php';

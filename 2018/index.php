@@ -14,8 +14,8 @@ include_once 'template-parts/homeSlider.php'; ?>
 			<p class="sponsors__title">Организаторы:</p>
 
 			<div class="sponsors__list">
-				<a class="partner__mosreg" href="//mosreg.ru" target="_blank"><img src="/images/partners/mos_oblast.svg" alt=""/></a>
-				<a class="partner__pppcenter" href="//www.pppcenter.ru/" target="_blank"><img src="/images/partners/pppcenter.svg" alt="pppcenter.ru" /></a>
+				<a class="partner__mosreg" href="//mosreg.ru" target="_blank"><img src="/images/partners/mos_oblast.svg" alt=""></a>
+				<a class="partner__pppcenter" href="//www.pppcenter.ru/" target="_blank"><img src="/images/partners/pppcenter.svg" alt="pppcenter.ru"></a>
 			</div>
 		</li>
 	</ul>

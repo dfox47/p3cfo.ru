@@ -31,22 +31,22 @@
 
 		<div class="slider-video__thumbnails">
 			<div class="slide">
-				<img src="/img/pic-slide5.jpg" alt="" />
+				<img src="/img/pic-slide5.jpg" alt="">
 				<span class="name">Форум ЦФО по ГЧП. Развитие ГЧП в Центральной России: эффективные механизмы и существующие барьеры</span>
 			</div>
 
 			<div class="slide">
-				<img src="/img/pic-slide6.jpg" alt="" />
+				<img src="/img/pic-slide6.jpg" alt="">
 				<span class="name">Форум ЦФО по ГЧП. Новые источники финансирования для подготовки и реализации проектов ГЧП в регионах</span>
 			</div>
 
 			<div class="slide">
-				<img src="/img/pic-slide7.jpg" alt="" />
+				<img src="/img/pic-slide7.jpg" alt="">
 				<span class="name">Форум ЦФО по ГЧП. ГЧП в социальной сфере</span>
 			</div>
 
 			<div class="slide">
-				<img src="/img/pic-slide8.jpg" alt="" />
+				<img src="/img/pic-slide8.jpg" alt="">
 				<span class="name">Форум ЦФО по ГЧП. Транспортная инфраструктура Центральной России</span>
 			</div>
 		</div>

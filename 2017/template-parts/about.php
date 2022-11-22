@@ -11,7 +11,7 @@
 	<div class="about_info">
 		<div class="about_info_item">
 			<div class="about_info_item__img">
-				<img src="/images/about_1.png" alt=""/>
+				<img src="/images/about_1.png" alt="">
 			</div>
 
 			<div class="about_info_item__title">Дата проведения</div>
@@ -23,7 +23,7 @@
 
 		<div class="about_info_item">
 			<div class="about_info_item__img">
-				<img src="/images/about_2.png" alt=""/>
+				<img src="/images/about_2.png" alt="">
 			</div>
 
 			<div class="about_info_item__title">
@@ -31,15 +31,15 @@
 			</div>
 
 			<div class="about_info_item__desc">
-				Дом<br />
-				Правительства<br />
+				Дом<br>
+				Правительства<br>
 				Московской области
 			</div>
 		</div>
 
 		<div class="about_info_item">
 			<div class="about_info_item__img">
-				<img src="/images/about_3.png" alt=""/>
+				<img src="/images/about_3.png" alt="">
 			</div>
 
 			<div class="about_info_item__title">Аудитория</div>

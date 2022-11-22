@@ -1,6 +1,3 @@
-
-
-
 <?php // Header
 include_once 'template-parts/header.php'; ?>
 
@@ -72,5 +69,3 @@ include_once 'template-parts/popup.php'; ?>
 <?php // Should be last
 // Footer
 include_once 'template-parts/footer.php'; ?>
-
-

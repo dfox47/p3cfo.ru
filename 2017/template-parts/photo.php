@@ -11,9 +11,9 @@
 	<div class="photo_list">
 		<div class="photo_list__item">
 			<a class="photo_list_link fbslider" data-fancybox-type="iframe" href="/images/photo_2017/s1.html">
-				<img src="/images/photo_2017/10_00_plenarnoe_result.jpg" alt=""/>
+				<img src="/images/photo_2017/10_00_plenarnoe_result.jpg" alt="">
 
-				<span>Пленарное заседание<br />«Инвестиции в инфраструктуру Центральной России: стратегические приоритеты и проектные инициативы»</span>
+				<span>Пленарное заседание<br>«Инвестиции в инфраструктуру Центральной России: стратегические приоритеты и проектные инициативы»</span>
 			</a>
 
 			<a class="btn_download" href="/images/photo_2017/10_00_plenarnoe.zip" target="_blank">скачать фото</a>
@@ -21,7 +21,7 @@
 
 		<div class="photo_list__item">
 			<a class="photo_list_link fbslider" data-fancybox-type="iframe" href="/images/photo_2017/s2.html">
-				<img src="/images/photo_2017/12_30_zal_priemov_result.jpg" alt=""/>
+				<img src="/images/photo_2017/12_30_zal_priemov_result.jpg" alt="">
 
 				<span>Презентационная сессия<br>«Квалифицированный заказчик: лучшие практики управления сферой ГЧП в ЦФО»</span>
 			</a>
@@ -31,7 +31,7 @@
 
 		<div class="photo_list__item">
 			<a class="photo_list_link fbslider" data-fancybox-type="iframe" href="/images/photo_2017/s3.html">
-				<img src="/images/photo_2017/15_30_zal_priemov_result.jpg" alt=""/>
+				<img src="/images/photo_2017/15_30_zal_priemov_result.jpg" alt="">
 
 				<span>Стратегическая сессия<br>Презентация проектных инициатив субъектов ЦФО в коммунальной и транспортной сферах</span>
 			</a>
@@ -41,7 +41,7 @@
 
 		<div class="photo_list__item">
 			<a class="photo_list_link fbslider" data-fancybox-type="iframe" href="/images/photo_2017/s4.html">
-				<img src="/images/photo_2017/15_30_konferenc_zal_result.jpg" alt=""/>
+				<img src="/images/photo_2017/15_30_konferenc_zal_result.jpg" alt="">
 
 				<span>Экспертная сессия<br>«Сельское хозяйство и промышленность – перспективные отрасли для применения механизмов ГЧП в Центральной России»</span>
 			</a>
@@ -51,7 +51,7 @@
 
 		<div class="photo_list__item">
 			<a class="photo_list_link fbslider" data-fancybox-type="iframe" href="/images/photo_2017/s5.html">
-				<img src="/images/photo_2017/12_00_podpisanie_soglasheniy_i_presspodhod_result.jpg" alt=""/>
+				<img src="/images/photo_2017/12_00_podpisanie_soglasheniy_i_presspodhod_result.jpg" alt="">
 
 				<span>Подписание соглашений и пресс-подход<br></span>
 			</a>
@@ -61,7 +61,7 @@
 
 		<div class="photo_list__item">
 			<a class="photo_list_link fbslider" data-fancybox-type="iframe" href="/images/photo_2017/s6.html">
-				<img src="/images/photo_2017/registraciya_i_holl_result.jpg" alt=""/>
+				<img src="/images/photo_2017/registraciya_i_holl_result.jpg" alt="">
 
 				<span>Холл и общение<br></span>
 			</a>
