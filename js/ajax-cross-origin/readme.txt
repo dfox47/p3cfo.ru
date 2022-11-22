@@ -17,7 +17,7 @@ Download ajax-cross-origin.zip from: http://www.ajax-cross-origin.com
 Extract the script file js/jquery.ajax-cross-origin.min.js and copy to your javascript folder (e.g /js).
 
 Add the following to your header page:
-<script type="text/javascript" src="[your javascript folder]/jquery.ajax-cross-origin.min.js"></script>
+<script src="[your javascript folder]/jquery.ajax-cross-origin.min.js"></script>
 
 
 Usage:

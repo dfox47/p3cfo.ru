@@ -5,10 +5,10 @@
 <title>Форма заказа стенограмм p3operator.ru</title>
 <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 
-<script type="text/javascript" src="../include/jquery-1.11.3.min.js"></script>
+<script src="../include/jquery-1.11.3.min.js"></script>
 
-<script type="text/javascript" src="../include/jquery-validation/jquery.validate.min.js"></script>
-<script type="text/javascript" src="../include/jquery-validation/messages_ru.min.js"></script>
+<script src="../include/jquery-validation/jquery.validate.min.js"></script>
+<script src="../include/jquery-validation/messages_ru.min.js"></script>
 
 <style>
 *{margin: 0; padding: 0;font-family: 'PT Sans', sans-serif;}
