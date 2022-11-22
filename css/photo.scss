@@ -1,0 +1,57 @@
+
+
+
+.photo {
+	background: url(/images/photo_bg.jpg) center top 40px no-repeat scroll $c_thead;
+	background-size: cover;
+	color: #fff;
+}
+
+.photo_list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 0 auto;
+	max-width: 1100px;
+	padding: 30px;
+	width: 100%;
+
+	> div {
+
+	}
+
+	img {
+		display: block;
+		margin: 0 0 15px;
+		width: 100%;
+	}
+
+	&__item {
+		margin: 0 0 60px;
+		position: relative;
+		width: 30%;
+
+		@media #{$tablet} {
+			width: 47%;
+		}
+
+		@media #{$mobile} {
+			width: 100%;
+		}
+	}
+}
+
+.photo_list_link,
+.photo_list_link:visited {
+	color: #fff;
+	display: block;
+	padding: 0 0 15px;
+	text-decoration: none;
+	transition: $transition;
+
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
+

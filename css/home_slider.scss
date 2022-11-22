@@ -1,0 +1,121 @@
+
+
+
+.home_slider {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #000;
+	font-family: $font_museo_500;
+	min-height: 600px;
+	padding: 136px 0 0;
+	position: relative;
+
+	&__2017 {
+		background-image: url(/images/2017/bg.jpg);
+	}
+
+	&__2018 {
+		background-image: url(/images/2018/bg.jpg);
+	}
+
+	&__2021 {
+		background-image: url(/images/2021/bg.png);
+	}
+
+	&__address {
+		@media #{$mobile} {
+			font-size: 14px;
+		}
+	}
+
+	&__bg {
+		max-width: 100%;
+	}
+
+	&__content {
+		color: $c_home_slider;
+		margin: 0 auto;
+		max-width: 1000px;
+		padding: 0 30px 30px;
+		text-align: left;
+		width: 100%;
+	}
+
+	&__place {
+		font-size: 22px;
+
+		@media #{$mobile} {
+			font-size: 20px;
+		}
+	}
+
+	.register {
+		align-items: center;
+		background-color: $c_link;
+		display: flex;
+		font-family: $font_museo_900;
+		font-size: 20px;
+		height: auto;
+		justify-content: center;
+		letter-spacing: .1em;
+		line-height: 60px;
+		max-width: 220px;
+		text-decoration: none;
+		text-transform: uppercase;
+		width: 100%;
+
+		&:hover {
+			background-color: $c_home_slider;
+			opacity: 1;
+		}
+	}
+
+	@media #{$tablet} {
+		padding: 122px 0 0;
+	}
+
+	@media #{$mobile} {
+		padding: 102px 0 0;
+	}
+}
+
+.home_slider_content {
+	color: $c_home_slider;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin: 0 auto;
+	max-width: 1170px;
+	min-height: 500px;
+	padding: 30px;
+
+	@media #{$mobile} {
+		background-color: rgba(#fff, .5);
+	}
+}
+
+.home_slider_date {
+	color: $c_link;
+	font-size: 26px;
+	text-transform: uppercase;
+
+	@media #{$mobile} {
+		font-size: 22px;
+	}
+}
+
+.home_slider_title {
+	color: $c_home_slider;
+	font-family: $font_museo_900;
+	font-size: 30px;
+	line-height: 1.2;
+	margin: 20px 0;
+	text-transform: uppercase;
+
+	@media #{$mobile} {
+		font-size: 26px;
+	}
+}
+
+

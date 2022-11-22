@@ -1,0 +1,60 @@
+
+
+
+.about {
+	background-color: $c_about_bg;
+}
+
+.about_info {
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+	padding: 0 30px;
+	text-align: center;
+}
+
+.about_info_item {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	max-width: 360px;
+	padding: 30px;
+	width: 100%;
+
+	&__desc {
+		color: $c_text_special;
+		font-size: 24px;
+		text-transform: uppercase;
+
+		span {
+			color: $c_link;
+			font-size: 64px;
+		}
+	}
+
+	&__img {
+		align-items: center;
+		border-radius: 50%;
+		border: 1px solid $c_link;
+		display: flex;
+		height: 120px;
+		justify-content: center;
+		width: 120px;
+	}
+
+	&__title {
+		color: $c_logo;
+		font-family: $font_museo_700;
+		font-size: 24px;
+		padding: 1.5em 0 1em;
+		text-transform: uppercase;
+
+		a,
+		a:visited {
+			color: $c_logo;
+		}
+	}
+}
+
+

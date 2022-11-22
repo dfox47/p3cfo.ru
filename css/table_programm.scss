@@ -1,0 +1,199 @@
+
+
+
+.table_programm {
+	td {
+		&.active {
+			.table_programm__desc {
+				display: block;
+			}
+		}
+	}
+
+	li {
+		padding: 0 0 1em;
+	}
+
+	ul {
+		padding: 0 0 0 16px;
+	}
+
+	&__btn {
+		align-items: center;
+		color: $c_text_special;
+		display: flex;
+		text-decoration: none;
+		text-transform: uppercase;
+		transition: $transition;
+
+		&:hover {
+			opacity: .7;
+			text-decoration: none;
+		}
+	}
+
+	&__btn_sign {
+		background-color: $c_link;
+		border-radius: 12px;
+		cursor: pointer;
+		display: block;
+		margin: 0 10px 0 0;
+		padding: 8px 14px 4px 18px;
+
+		span {
+			border-bottom: 10px solid transparent;
+			border-left: 14px solid #fff;
+			border-top: 10px solid transparent;
+			display: inline-block;
+			height: 0;
+			width: 0;
+		}
+	}
+
+	&__desc {
+		display: none;
+		font-weight: 400;
+		margin: 16px 0 0;
+
+		&.active {
+			display: block;
+		}
+
+		li {
+			padding: 0 0 1em;
+		}
+
+		ul {
+			padding: 0 0 0 20px;
+		}
+	}
+
+	&__presentations {
+		display: flex;
+		justify-content: space-between;
+		align-items: stretch;
+		padding: 10px 0;
+
+		p {
+			font-style: italic;
+			font-weight: 400;
+		}
+	}
+
+	&__presentations_item {
+		background: url(/images/presentationWhite.png) no-repeat left top scroll transparent;
+		width: 15%;
+	}
+
+	&__presentations_title {
+		width: 85%;
+	}
+
+	&__sep {
+		margin: 30px 0;
+	}
+
+	&__speaker {
+		color: #000;
+		display: block;
+		font-size: 14px;
+		margin: .5em 0 0;
+		text-decoration: none;
+
+		span {
+			display: inline-block;
+			font-size: 16px;
+			font-weight: 700;
+		}
+	}
+
+	&__speakers_pres {
+		margin: 20px 0 0;
+		min-height: 40px;
+		padding: 0 0 0 60px;
+		position: relative;
+
+		&::before {
+			background: url(/images/presentationWhite.png) 0 0 no-repeat scroll transparent;
+			content: "";
+			filter: invert(100%);
+			height: 32px;
+			left: 0;
+			position: absolute;
+			top: 0;
+			width: 32px;
+		}
+
+		a,
+		a:visited {
+			color: #000;
+			text-decoration: none;
+
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+
+		span {
+			font-weight: 700;
+		}
+	}
+
+	&__title_1 {
+		padding: 0 3em 0 0;
+	}
+
+	&__title_2 {
+		cursor: pointer;
+		text-decoration: underline;
+		text-decoration-style: dashed;
+		transition: $transition;
+
+		&:hover {
+			text-decoration: none;
+		}
+	}
+
+	&__title_3 {
+		font-weight: 700;
+		margin: 1em 0 0;
+	}
+
+	&__title_wrap {
+		align-items: center;
+		display: flex;
+		justify-content: space-between;
+		padding: 0 0 10px;
+	}
+}
+
+.table_programm_presentation {
+	background: url(/images/icons/presentation.svg) no-repeat left 4px scroll transparent;
+	background-size: 30px;
+	color: $c_link;
+	display: block;
+	min-height: 40px;
+	padding: 0 0 10px 50px;
+	position: relative;
+	text-decoration: none;
+	transition: $transition;
+
+	&::after {
+		background-color: $c_link;
+		bottom: 0;
+		content: "";
+		height: 2px;
+		left: 0;
+		position: absolute;
+		transition: $transition;
+		width: 0;
+	}
+
+	&:hover {
+		&::after {
+			width: 100%;
+		}
+	}
+}
+
+

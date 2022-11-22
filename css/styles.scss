@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+// sCSS Document
+// Powered by foxartbox / info@foxartbox.com
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=latin,cyrillic');
+
+// should be 1st
+@import "var";
+
+@import "about";
+@import "font-awesome.min";
+@import "footer";
+@import "header";
+@import "home_slider";
+@import "jquery.countdown";
+@import "jquery.fancybox";
+@import "news";
+@import "photo";
+@import "popup";
+@import "slick";
+@import "slick-theme";
+@import "slider__video";
+@import "table_programm";
+
+// should be last
+@import "custom_new";

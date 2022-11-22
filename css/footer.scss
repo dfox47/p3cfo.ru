@@ -1,0 +1,188 @@
+
+
+
+.footer {
+	padding: 0 0 64px;
+
+	li {
+		display: block;
+	}
+
+	ul {
+		align-items: center;
+		border-top: 2px solid #eee;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		list-style: none;
+		padding: 40px 0 0;
+	}
+}
+
+.footer__link,
+.footer__link:visited {
+	color: $c_thead !important;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: $transition;
+
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
+.footer_links {
+	align-items: center;
+	color: $c_text;
+	display: flex;
+	flex-wrap: wrap;
+	font-size: 12px;
+	justify-content: space-between;
+	padding: 32px 0;
+
+	&__arh {
+		display: inline-block;
+
+		a {
+			background-color: #b01116;
+			border-radius: 4px;
+			color: #fff;
+			display: inline-block;
+			padding: 4px 20px;
+			text-decoration: none;
+			transition: $transition;
+
+			&:hover {
+				opacity: .7;
+			}
+
+			&:nth-child(2n) {
+				background-color: #1a682d;
+			}
+		}
+	}
+
+	&__left {
+		padding: 0 30px 0 0;
+		width: 50%;
+
+		> div {
+			&:first-child {
+				display: flex;
+				width: 100%;
+			}
+		}
+
+		a,
+		a:visited {
+			//color: $c_links;
+			text-decoration: none;
+			transition: $transition;
+
+			&:hover {
+				opacity: .7;
+			}
+		}
+
+		p {
+			margin: 0 28px 0 0;
+
+			&:last-child {
+				margin: 0;
+			}
+		}
+
+		span {
+			font-weight: 700;
+		}
+
+		@media #{$desktop} {
+			padding: 0 0 30px;
+			text-align: center;
+			width: 100%;
+		}
+	}
+
+	&__social {
+		align-items: center;
+		display: flex;
+		justify-content: center;
+
+		a,
+		a:visited {
+			display: block;
+
+			img {
+				display: block;
+			}
+		}
+
+		span {
+			font-size: 12px;
+		}
+
+		@media #{$mobile} {
+			padding: 30px 0 0;
+			width: 100%;
+		}
+	}
+
+	&__right {
+		align-items: center;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: flex-end;
+		text-align: right;
+		width: 50%;
+
+		a,
+		a:visited {
+			color: $c_text;
+			display: inline-block;
+			margin: 0 0 0 5px;
+			text-decoration: none;
+
+			&:hover {
+				text-decoration: underline;
+			}
+
+			img {
+				border-radius: 100%;
+				max-width: 28px;
+			}
+		}
+
+		p {
+			margin: 0 .5em 0 0;
+			white-space: nowrap;
+		}
+
+		@media #{$desktop} {
+			justify-content: center;
+			width: 100%;
+		}
+	}
+
+	@media #{$desktop} {
+		flex-direction: column;
+	}
+}
+
+.footer_policy {
+	color: $c_text;
+	padding: 30px 0 0;
+	text-align: center;
+	width: 100%;
+
+	a,
+	a:visited {
+		color: $c_text;
+		transition: $transition;
+
+		&:hover {
+			color: #000;
+		}
+	}
+}
+
+
