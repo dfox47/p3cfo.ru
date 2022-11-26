@@ -15,7 +15,7 @@
 			</li>
 		</ul>
 
-		<div class="home_slider_date">Декабрь 2022 года</div>
+		<div class="home_slider_date">Декабрь 2023 года</div>
 
 		<div class="home_slider_title">
 			VI Форум<br>
