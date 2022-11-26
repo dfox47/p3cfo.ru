@@ -1,62 +1,76 @@
 <div class="header_menu_wrap js-header-menu">
 	<ul class="header_menu">
-		<?php // 2018
-		if ( $_SERVER['REQUEST_URI'] == '/2017/' ) { ?>
-			<li><a class="js-scroll-to js-header-menu-close" href="#contacts">Контакты</a></li>
-			<li><a class="js-scroll-to js-header-menu-close" href="#news">Новости</a></li>
-			<li><a class="js-scroll-to js-header-menu-close" href="#media">СМИ</a></li>
-			<li><a class="js-scroll-to js-header-menu-close" href="#partners">Партнеры</a></li>
-			<li><a class="js-scroll-to js-header-menu-close" href="#members">Спикеры</a></li>
-			<li><a class="js-scroll-to js-header-menu-close" href="#photo">Фото</a></li>
-			<li><a class="js-scroll-to js-header-menu-close" href="#video">Видео</a></li>
-			<li><a class="js-scroll-to js-header-menu-close" href="#programm">Программа</a></li>
-			<li><a class="js-scroll-to js-header-menu-close" href="#about">О мероприятии</a></li>
-		<?php }
-		elseif ( $_SERVER['REQUEST_URI'] == '/2018/' ) { ?>
-			<li><a class="js-scroll-to js-header-menu-close" href="#contacts">Контакты</a></li>
-			<li><a class="js-scroll-to js-header-menu-close" href="#news">Новости</a></li>
-			<li><a class="js-scroll-to js-header-menu-close" href="#media">СМИ</a></li>
-			<li><a class="js-scroll-to js-header-menu-close" href="#members">Спикеры</a></li>
-			<li><a class="js-scroll-to js-header-menu-close" href="#partners">Партнеры</a></li>
-			<li><a class="js-scroll-to js-header-menu-close" href="#photo">Фото</a></li>
-<!--			<li><a class="js-scroll-to js-header-menu-close" href="#video">Видео</a></li>-->
-			<li><a class="js-scroll-to js-header-menu-close" href="#programm">Программа</a></li>
-			<li><a class="js-scroll-to js-header-menu-close" href="#about">О мероприятии</a></li>
-		<?php }
-		elseif ( $_SERVER['REQUEST_URI'] == '/2019/' ) { ?>
-			<li><a class="js-scroll-to js-header-menu-close" href="#programm">Программа</a></li>
-			<li><a class="js-scroll-to js-header-menu-close" href="#members">Спикеры</a></li>
-			<li><a class="js-scroll-to js-header-menu-close" href="#photo">Фото</a></li>
-			<li><a class="js-scroll-to js-header-menu-close" href="#video">Видео</a></li>
-			<li><a class="js-scroll-to js-header-menu-close" href="#media">СМИ</a></li>
-			<li><a class="js-scroll-to js-header-menu-close" href="#news">Новости</a></li>
-			<li><a class="js-scroll-to js-header-menu-close" href="#contacts">Контакты</a></li>
-		<?php }
-		elseif ( $_SERVER['REQUEST_URI'] == '/2022/' ) { ?>
-			<li><a class="js-scroll-to js-header-menu-close" href="#photo">Фото</a></li>
-			<li><a class="js-scroll-to js-header-menu-close" href="#programm">Программа</a></li>
-			<li><a class="js-scroll-to js-header-menu-close" href="#members">Спикеры</a></li>
-			<li><a class="js-scroll-to js-header-menu-close" href="#media">СМИ</a></li>
-			<li><a class="js-scroll-to js-header-menu-close" href="#news">Новости</a></li>
-			<li><a class="js-scroll-to js-header-menu-close" href="#contacts">Контакты</a></li>
-		<?php }
-		elseif ( $_SERVER['REQUEST_URI'] == '/' ) { ?>
-			<li><a class="js-scroll-to js-header-menu-close" href="#photo">Фото</a></li>
-			<li><a class="js-scroll-to js-header-menu-close" href="#video">Видео</a></li>
-			<li><a class="js-scroll-to js-header-menu-close" href="#programm">Программа</a></li>
-			<li><a class="js-scroll-to js-header-menu-close" href="#members">Спикеры</a></li>
-			<li><a class="js-scroll-to js-header-menu-close" href="#media">СМИ</a></li>
-			<li><a class="js-scroll-to js-header-menu-close" href="#news">Новости</a></li>
-			<li><a class="js-scroll-to js-header-menu-close" href="#contacts">Контакты</a></li>
-		<?php }
-		else { ?>
-			<li><a class="js-scroll-to js-header-menu-close" href="#photo">Фото</a></li>
-			<li><a class="js-scroll-to js-header-menu-close" href="#video">Видео</a></li>
-			<li><a class="js-scroll-to js-header-menu-close" href="#programm">Программа</a></li>
-			<li><a class="js-scroll-to js-header-menu-close" href="#members">Спикеры</a></li>
-			<li><a class="js-scroll-to js-header-menu-close" href="#media">СМИ</a></li>
-			<li><a class="js-scroll-to js-header-menu-close" href="#news">Новости</a></li>
-			<li><a class="js-scroll-to js-header-menu-close" href="#contacts">Контакты</a></li>
+		<?php $links = array(
+			'#photo'        => 'Фото',
+			'#video'        => 'Видео',
+			'#programm'     => 'Программа',
+			'#members'      => 'Спикеры',
+			'#media'        => 'СМИ',
+			'#news'         => 'Новости',
+			'#contacts'     => 'Контакты'
+		);
+
+		// 2017
+		if ( $_SERVER['REQUEST_URI'] == '/2017/' ) {
+			$links = array(
+				'#contacts'     => 'Контакты',
+				'#news'         => 'Новости',
+				'#media'        => 'СМИ',
+				'#partners'     => 'Партнеры',
+				'#members'      => 'Спикеры',
+				'#photo'        => 'Фото',
+				'#video'        => 'Видео',
+				'#programm'     => 'Программа',
+				'#about'        => 'О мероприятии'
+			);
+		}
+		elseif ( $_SERVER['REQUEST_URI'] == '/2018/' ) {
+			$links = array(
+				'#contacts'     => 'Контакты',
+				'#news'         => 'Новости',
+				'#media'        => 'СМИ',
+				'#members'      => 'Спикеры',
+				'#partners'     => 'Партнеры',
+				'#photo'        => 'Фото',
+				'#programm'     => 'Программа',
+				'#about'        => 'О мероприятии'
+			);
+		}
+		elseif ( $_SERVER['REQUEST_URI'] == '/2019/' ) {
+			$links = array(
+				'#programm'     => 'Программа',
+				'#members'      => 'Спикеры',
+				'#photo'        => 'Фото',
+				'#video'        => 'Видео',
+				'#media'        => 'СМИ',
+				'#news'         => 'Новости',
+				'#contacts'     => 'Контакты'
+			);
+		}
+		elseif ( $_SERVER['REQUEST_URI'] == '/2022/' ) {
+			$links = array(
+				'#photo'        => 'Фото',
+				'#programm'     => 'Программа',
+				'#members'      => 'Спикеры',
+				'#media'        => 'СМИ',
+				'#news'         => 'Новости',
+				'#contacts'     => 'Контакты'
+			);
+		}
+		elseif ( $_SERVER['REQUEST_URI'] == '/' ) {
+			$links = array(
+				'#photo'        => 'Фото',
+				'#video'        => 'Видео',
+				'#programm'     => 'Программа',
+				'#members'      => 'Спикеры',
+				'#media'        => 'СМИ',
+				'#news'         => 'Новости',
+				'#contacts'     => 'Контакты'
+			);
+		}
+
+		foreach($links as $link => $linkTitle) { ?>
+			<li><a class="js-scroll-to js-header-menu-close" href="<?php echo $link; ?>"><?= $linkTitle; ?></a></li>
 		<?php } ?>
 	</ul>
 
