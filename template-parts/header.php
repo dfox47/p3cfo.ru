@@ -14,7 +14,7 @@
 	<?php // all styles in one file with GULP ?>
 	<link rel="stylesheet" href="/styles.min.css?v<?php echo(date("YmdHis")); ?>">
 
-	<link rel="stylesheet" href="/css/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="/css/font-awesome.min.css">
 	<link rel="stylesheet" href="/js/slick/slick.css">
 	<link rel="stylesheet" href="/js/slick/slick-theme.css">
 
