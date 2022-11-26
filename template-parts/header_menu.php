@@ -1,6 +1,3 @@
-
-
-
 <div class="header_menu_wrap js-header-menu">
 	<ul class="header_menu">
 		<?php // 2018
@@ -65,5 +62,3 @@
 
 	<?php include 'header_links.php'; ?>
 </div>
-
-
