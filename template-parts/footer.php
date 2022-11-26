@@ -1,6 +1,3 @@
-
-
-
 <div class="footer">
 	<div class="wrap">
 		<div class="footer_links">
@@ -44,18 +41,11 @@
 
 <a href="#top" class="scrollup2 js-scroll-to">Наверх</a>
 
-
-
-
-
-
-
-<script src="/js/localStorage.js"></script>
 <script src="/js/img_scroll.js"></script>
+<script src="/js/localStorage.js"></script>
 <script src="/js/main.js"></script>
 <script src="/js/news.js"></script>
-
-
+<script src="/js/scroll_to.js"></script>
 
 <!-- Yandex.Metrika counter -->
 <script>
@@ -84,4 +74,3 @@
 
 </body>
 </html>
-

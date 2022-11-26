@@ -46,8 +46,6 @@
 	<script src="/include/main.js?v3"></script>
 
 	<script src="/js/slick/slick.min.js"></script>
-
-	<script src="/js/scroll_to.js"></script>
 </head>
 
 
