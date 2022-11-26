@@ -1,6 +1,3 @@
-
-
-
 <div id="contacts" class="contacts">
 	<div class="title_2">
 		<div class="wrap">Контакты</div>
@@ -28,5 +25,3 @@
 		<img class="contacts_bg_mobile" src="/images/bg_mapc.jpg" alt="">
 	</div>
 </div>
-
-

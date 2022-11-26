@@ -1,6 +1,3 @@
-
-
-
 <div id="about" class="mainDiv3Wrap mainDiv3_gr_Wrap">
 	<div class="title_2">
 		<div class="wrap">
@@ -58,5 +55,3 @@
 		<div class="clearing"></div>
 	</div>
 </div>
-
-
